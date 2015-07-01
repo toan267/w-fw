@@ -55,6 +55,24 @@
             <version>1.2</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- Log4j 2 Support-->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -95,6 +113,7 @@
         <jetty.version>9.2.11.v20150529</jetty.version>
         <jetty.jsp.version>9.2.11.v20150529</jetty.jsp.version>
         <spring.version>4.1.6.RELEASE</spring.version>
+        <log4j2.version>2.3</log4j2.version>
     </properties>
 
 
